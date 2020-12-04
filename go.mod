@@ -38,3 +38,7 @@ require (
 	gopkg.in/ini.v1 v1.51.0
 	gopkg.in/yaml.v2 v2.2.4
 )
+
+replace github.com/spf13/afero => github.com/1g0rb0hm/afero v1.1.3-0.20201204110253-759225cfc85a
+
+replace github.com/fsnotify/fsnotify => github.com/1g0rb0hm/fsnotify-shim v0.0.0
